@@ -450,7 +450,7 @@ a.discover{
 	position: relative;
 }
 .business_dots_bg {
-    position: absolute;
+    position: relative;
     width: 100%;
     height:780px;
     background-repeat: repeat;
@@ -471,6 +471,9 @@ a.discover{
 	content: "";
 	position: absolute;
 }
+.business_slider{
+	position: relative;
+}
 .business_title{
 	position: relative;
 	z-index: 20;
@@ -481,4 +484,38 @@ a.discover{
 .business_title h2{
 	font-size: 60px;
 	margin-top: 35px;
+}
+.business_slider{
+	margin: 145px 0 150px 0;
+}
+.business_slider_item{
+	display: flex!important;
+}
+.business_description {
+    margin: 0 12rem 0 20rem;
+    width: 40%;
+    font-size: 1.500em;
+}
+.category_item{
+	margin-bottom: 50px;
+	
+}
+.business_category{
+	
+}
+.business_category .icon{
+	width: 65px;
+	height: 65px;
+	background-color:#eee;
+	padding: 15px;
+	border-radius: 50%;
+}
+.business_category .icon img{
+	width: 100%;
+}
+.services_slider_nav {
+    width: 20%;
+    position: absolute;
+    bottom: 30%;
+    left: -50px;
 }
